@@ -1,4 +1,4 @@
-#Merge and Join DataFrames with Pandas in Python
+# Merge and Join DataFrames with Pandas in Python
 
 Merging and joining dataframes is a core process that any aspiring data analyst will need to master.
 
@@ -16,7 +16,7 @@ We can load these CSV files as Pandas DataFrames into pandas using the Pandas re
 
 There are linking attributes between the sample datasets that are important to note – “use_id” is shared between the user_usage and user_device, and the “device” column of user_device and “Model” column of the devices dataset contain common codes.
 
-#Sample problem              
+# Sample problem              
 
 We would like to determine if the usage patterns for users differ between different devices. For example, do users using Samsung devices use more call minutes than those using LG devices? This is a toy problem given the small sample size in these dataset, but is a perfect example of where merges are required.
 
@@ -26,4 +26,4 @@ We want to form a single dataframe with columns for user usage figures (calls pe
 
 
 
-Source: [a link]https://www.shanelynn.ie/merge-join-dataframes-python-pandas-index-1/        
+Source: [shanelynn](https://www.shanelynn.ie/merge-join-dataframes-python-pandas-index-1/)        
