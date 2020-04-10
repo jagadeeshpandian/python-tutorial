@@ -16,3 +16,10 @@ data = pd.read_csv("filename.csv")
 
 # Preview the first 5 lines of the loaded data
 data.head()
+
+
+
+
+
+
+Source: [a link]https://www.shanelynn.ie/python-pandas-read_csv-load-data-from-csv-files/
