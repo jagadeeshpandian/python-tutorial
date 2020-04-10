@@ -29,3 +29,15 @@ print(os.listdir(os.getcwd()))
 #Read the CSV file
 df=pd.read_csv("user_usage.csv")
 df
+
+
+# When specifying file names to the read_csv function, you can supply both absolute or relative file paths.
+
+# It’s recommended and preferred to use relative paths
+# where possible in applications, because absolute paths are
+# unlikely to work on different computers due to different directory structures.
+
+os.getcwd()
+# load the file using relative path
+os.chdir("/Users/prabu/Documents/python-tutorial/Source_Files")
+os.listdir(os.getcwd())
