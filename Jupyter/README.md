@@ -1,7 +1,8 @@
 # Python Programming using Jupyter Notebook
 
 
-#What you’ll learn
+# What you’ll learn
+
 Learn to program in Python at a good level
 Learn how to code in Jupiter Notebooks
 Learn the core principles of programming
